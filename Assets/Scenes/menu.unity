@@ -313,7 +313,7 @@ PrefabInstance:
       objectReference: {fileID: 872145442}
     - target: {fileID: 6266890725912523073, guid: 116667ed98661304da1568439e2a3426, type: 3}
       propertyPath: Web3RpcNodeUrl
-      value: SPEEDY_NODE_URL
+      value: https://speedy-nodes-nyc.moralis.io/6201ab355ca0e320eb7e962d/eth/rinkeby
       objectReference: {fileID: 0}
     - target: {fileID: 6266890725912523073, guid: 116667ed98661304da1568439e2a3426, type: 3}
       propertyPath: ApplicationName
@@ -321,11 +321,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6266890725912523073, guid: 116667ed98661304da1568439e2a3426, type: 3}
       propertyPath: MoralisServerURI
-      value: MORALIS_SERVER_URL
+      value: https://egwp02r7gcf8.usemoralis.com:2053/server
       objectReference: {fileID: 0}
     - target: {fileID: 6266890725912523073, guid: 116667ed98661304da1568439e2a3426, type: 3}
       propertyPath: MoralisApplicationId
-      value: MORALIS_APP_ID
+      value: OMncZ7nR1UtvNr1Hwnbe7KbbQqNXrFFUK4zTseMu
       objectReference: {fileID: 0}
     - target: {fileID: 6266890725912523102, guid: 116667ed98661304da1568439e2a3426, type: 3}
       propertyPath: m_RootOrder

@@ -23,8 +23,6 @@ public class Car : MonoBehaviour
 
     void Update()
     {
-        Steer = GameManager.instance.inputController.SteerInput;
-        Throttle = GameManager.instance.inputController.ThrottleInput;
         
         foreach( var wheel in wheels ) {
             wheel.SteerAngle = Steer * maxSteer;

@@ -8,6 +8,9 @@
  
      [SerializeField]
      private Vector3 offsetPosition;
+
+    // [SerializeField]
+    //  private Vector3 offset;
  
      [SerializeField]
      private Space offsetPositionSpace = Space.Self;
@@ -17,6 +20,7 @@
  
      private void Update()
      {
+        //  transform.position = target.position + offset;
          Refresh();
      }
  
